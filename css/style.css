@@ -1,0 +1,199 @@
+
+/* ------------ HTML ------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------------- End -------------- */
+
+/* -------------- body -------------- */
+body{
+    background-color: #faf4f2;
+}
+.clear{
+    clear: both;
+}
+/* -------------- End -------------- */
+
+/* ------------ Header ------------ */
+.header{
+    background-color: #f8e1db;
+}
+.header .logo img{
+    margin: 10px;
+    padding-left: 40px;
+}
+.header ul {
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.header li {
+    display: inline;
+    padding-left: 50px;
+}
+/* -------------- End -------------- */
+
+/* ------------ carousel ------------ */
+.carousel {
+    background-image: url(../Images/BG.png);
+    width: 100%;
+    height: 500px;
+    /* chinh kich thuoc cua hinh,cover la phu het khung cua the carousel */
+    background-size: cover;
+    /* thiet lap vi tri hien thi mac dinh cua trinh duyet la top, left */
+    background-position: center;
+    /* khi hinh co gia tri tren 3000px thi de khong lap lai hinh thi them backgroud-repeat voi gia tri la no-repeat */
+    margin-bottom: 60px;
+}
+/* -------------- End -------------- */
+
+/* 1.display inline chi ap dung cho noi dung don gian ( chua 1 con hoac 1 dong chu ngan )*/
+/*  2.float giup sap xep nhung khoi noi dung, ho tro moi trinh duyet, nhuoc diem kho sai*/
+
+/* ------------ Activities ------------ */
+.activities__title{
+    text-align: center;
+    margin: 20px;
+}
+.activities__item {
+    float:left;
+    width: 25%;
+    padding: 10px;
+}
+.activities__background {
+    background-color:white;
+    padding: 20px;
+    border-radius: 5%;
+    text-align: center;
+}
+.activities__img{
+    position: relative;
+}
+.activities__img img {
+    width: 100%;
+    border-radius: 10%;
+}
+.activities__img i {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: red;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(255, 255, 255, 0.522);
+    border-radius: 10px;
+}
+.activities__info {
+    line-height: 150%;
+}
+.activities__info p {
+    margin: 10px;
+}
+.activities__info button
+{
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color:aliceblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+    
+}
+.activities__ViewAll {
+    text-align: center;
+    margin: 20px;
+}
+.activities__ViewAll button {
+   
+    padding: 10px 50px;
+    color:rgb(236, 121, 45);
+    border:1px solid rgb(236, 121, 45);
+    /* khong co backgroud lay backgroud cua the chua no */
+    background-color:transparent;
+    border-radius: 20px;
+    /* khi chon vao nut thi hien len hieu ung click */
+    cursor: pointer;
+}
+/* -------------- End -------------- */
+
+/* -------------- Contact -------------- */
+.contact {
+    background-color: #f8e1db;
+    margin-top: 60px;
+}
+.contact__right,
+.contact__left {
+    width: 50%;
+    float: left;
+    padding: 20px 60px;
+}
+.contact__left {
+    background-image: url(../Images/mask.png);
+    background-position: center;
+    background-size: cover;
+}
+.contact__right h2,h1{
+    margin-bottom: 10px;
+}
+.contact__downloand,
+.contact__follow {
+    width: 50%;
+    float: left;
+}
+.contact__downloand img {
+   width: 128px;
+   cursor: pointer;
+}
+.contact__follow i {
+    font-size: 20px;
+    padding-right: 10px;
+    color: rgb(236, 121, 45);
+    cursor: pointer;
+}
+/* -------------- End -------------- */
+
+/* -------------- Footer -------------- */
+.footer {
+    background-color: #f8e1db;
+    margin-top: 80px;
+    line-height: 180%;
+    font-size: 15px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+.footer h3 {
+    margin-bottom: 10px;
+}
+.footer__right{
+    width: 60%;
+    float: left; 
+    padding: 60px 10px 30px 20px;
+}
+.footer__left{
+    width: 40%;
+    float: left;
+    padding: 60px 10px 30px 30px; 
+}
+.footer__Help1,
+.footer__withUs,
+.footer__Help2 {
+    width: 33%;
+    float: left;
+}
+.footer__right ul {
+    list-style: none;
+}
+.footer__end {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* -------------- End -------------- */
